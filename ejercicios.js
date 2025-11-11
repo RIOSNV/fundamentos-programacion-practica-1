@@ -331,10 +331,13 @@ function obtenerFila(matriz, indiceFila) {
  * Ejemplo: obtenerColumna([[1, 2], [3, 4], [5, 6]], 0) debe retornar [1, 3, 5]
  */
 function obtenerColumna(matriz, indiceColumna) {
-  // TODO: Extrae todos los elementos de la columna indicada
   const columna = [];
+  for (let fila of matriz) {
+    columna.push(fila[indiceColumna]);
+  }
   return columna;
 }
+
 
 /**
  * Ejercicio 5.5: Transponer una matriz (6 puntos)
