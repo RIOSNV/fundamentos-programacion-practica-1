@@ -320,8 +320,7 @@ function sumaMatriz(matriz) {
  * Ejemplo: obtenerFila([[1, 2], [3, 4], [5, 6]], 1) debe retornar [3, 4]
  */
 function obtenerFila(matriz, indiceFila) {
-  // TODO: Retorna la fila indicada
-  return [];
+  return matriz[indiceFila];
 }
 
 /**
