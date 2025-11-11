@@ -208,8 +208,11 @@ function numerosPares(n) {
  * @returns {number} - Suma de todos los elementos
  */
 function sumaArray(numeros) {
-  // TODO: Suma todos los elementos del array
-  return 0;
+  let suma = 0;
+  for (let num of numeros) {
+    suma += num;
+  }
+  return suma;
 }
 
 /**
