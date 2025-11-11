@@ -142,9 +142,13 @@ function clasificarEdad(edad) {
  * @returns {number} - Factorial de n
  */
 function factorial(n) {
-  // TODO: Implementa usando un bucle for
-  return 1;
+  let resultado=1;
+  for (let i=1; i<=n; i++){
+    resultado*=i;
+  }
+  return resultado;
 }
+
 
 /**
  * Ejercicio 3.2: Suma de nÃºmeros del 1 al n (4 puntos)
