@@ -303,9 +303,13 @@ function crearMatriz(filas, columnas) {
  * Ejemplo: sumaMatriz([[1, 2], [3, 4]]) debe retornar 10
  */
 function sumaMatriz(matriz) {
-  // TODO: Suma todos los elementos de la matriz
-  // NecesitarÃ¡s dos bucles: uno para las filas y otro para las columnas
-  return 0;
+  let suma = 0;
+  for (let fila of matriz) {
+    for (let num of fila) {
+      suma += num;
+    }
+  }
+  return suma;
 }
 
 /**
