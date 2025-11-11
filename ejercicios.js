@@ -245,8 +245,12 @@ function encontrarMaximo(numeros) {
  * Ejemplo: filtrarMayores([1, 5, 3, 8, 2], 4) debe retornar [5, 8]
  */
 function filtrarMayores(numeros, limite) {
-  // TODO: Crea un nuevo array con solo los nÃºmeros mayores al lÃ­mite
   const mayores = [];
+  for (let num of numeros) {
+    if (num > limite) {
+      mayores.push(num);
+    }
+  }
   return mayores;
 }
 
