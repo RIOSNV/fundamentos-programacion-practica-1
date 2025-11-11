@@ -156,9 +156,15 @@ function factorial(n) {
  * @returns {number} - Suma de 1 + 2 + 3 + ... + n
  */
 function sumaHastaN(n) {
-  // TODO: Usa un bucle para sumar todos los nÃºmeros desde 1 hasta n
-  return 0;
+  let suma = 0;
+  let contador = 1;
+  while (contador <= n) {
+    suma += contador;
+    contador++;
+  }
+  return suma;
 }
+
 
 /**
  * Ejercicio 3.3: Tabla de multiplicar (5 puntos)
