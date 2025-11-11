@@ -221,9 +221,11 @@ function sumaArray(numeros) {
  * @returns {number} - Promedio de los nÃºmeros
  */
 function promedioArray(numeros) {
-  // TODO: Calcula el promedio (suma total / cantidad de elementos)
-  return 0;
+  if (numeros.length === 0) return 0;
+  return sumaArray(numeros) / numeros.length;
 }
+
+
 
 /**
  * Ejercicio 4.3: Encontrar el mÃ¡ximo (6 puntos)
